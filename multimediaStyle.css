@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900');
+
+body{
+  margin:0;
+  background-color: white;
+}
+
+header{
+  background-color: #33cccc;
+  font-family: "Work Sans";
+  font-weight: 900;
+  font-size: 64pt;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+h1{
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 36pt;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 24pt;
+  padding: 25px;
+}
+
+p{
+  width:33%;
+  margin-left: 33%;
+  z-index: 5;
+  font-family: "Work Sans";
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #33cccc;
+}
+
+iframe{
+  width:50%;
+  margin-left: 25%;
+  margin-bottom: 50px;
+}
+
+.fish{
+  position: absolute;
+  z-index: 0;
+}
+
+.fish img{
+  height: 100px;
+}
+
+.firstLetter{
+  font-size: 18pt;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 75px;
+}
+
+#headerLine{
+  border-bottom: 3px solid #33cccc;
+}
+
+#footer{
+  width: 100%;
+  height: 150px;
+  background-color: #33cccc;
+}
+
+.axisLabel{
+  font-family: "Work Sans";
+  font-weight: 300;
+}
+
+.axis{
+  font-family: "Work Sans";
+  font-weight: 300;
+}
+
+.source{
+  margin-bottom: 50px;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Work Sans";
+}
+
+.tooltip{
+  font-family: "Work Sans";
+  font-weight: 300;
+}
+
+/*Temporary Styles:*/
+
+#barchart{
+  width: 50%
+  height:300;
+  margin-left: 25%;
+}
+
+#video{
+  height:600;
+}
