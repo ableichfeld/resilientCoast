@@ -9,7 +9,7 @@ header{
   background-color: #33cccc;
   font-family: "Work Sans";
   font-weight: 900;
-  font-size: 64pt;
+  font-size: 5vw;
   height: 50px;
   margin-bottom: 50px;
 }
@@ -20,6 +20,12 @@ h1{
   font-family: "Work Sans";
   font-weight: 700;
   font-size: 36pt;
+}
+
+.byline{
+  width: 40%;
+  margin-left: 30%;
+  font-size: 18pt;
 }
 
 h2{
@@ -100,7 +106,14 @@ iframe{
   font-weight: 300;
 }
 
-/*Temporary Styles:*/
+.credit{
+  margin-top: 25px;
+}
+
+.credit p{
+  width: 90%;
+  margin-left: 5%;
+}
 
 #barchart{
   width: 50%
